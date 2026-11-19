@@ -1,0 +1,39 @@
+{
+ "tier": "B",
+ "margin": 0.5,
+ "tries": {
+  "A,1.0": {
+   "hand": 373,
+   "foot": 26,
+   "mouth": 26
+  },
+  "A,0.5": {
+   "hand": 405,
+   "foot": 38,
+   "mouth": 33
+  },
+  "B,1.0": {
+   "hand": 649,
+   "foot": 91,
+   "mouth": 69
+  },
+  "B,0.5": {
+   "hand": 703,
+   "foot": 121,
+   "mouth": 87
+  }
+ },
+ "counts": {
+  "hand": 174,
+  "foot": 121,
+  "mouth": 87
+ },
+ "n_selection": 127,
+ "n_reporting": 255,
+ "extra_counts": {
+  "hand": 1000,
+  "mouth": 1000,
+  "foot": 199
+ },
+ "mde": 0.1108965248133875
+}

@@ -1,0 +1,18 @@
+selected grid prompt a max 0.88544061302682 33s
+/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:599: ConvergenceWarning: lbfgs failed to converge after 31 iteration(s) (status=2):
+ABNORMAL: 
+
+You might also want to scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+selected grid prompt b max 0.9260536398467433 71s
+chosen ('b', 10, 0.1) 0.9079501915708813
+hidden {0: 0.9239747410245495, 1: 0.9252164041436072, 2: 0.928089967361998} glove {0: 0.7823187171846175, 1: 0.7921810699588478, 2: 0.792571306939123} diff CI (0.08595413944220624, 0.188583781390799)
+controls done 80s
+shuffles done 220s
+main analysis done 222s
+rung1 {'hidden': {0: 0.9162054775081595, 1: 0.9079750248332624, 2: 0.9219526039449412}, 'glove': {0: 0.8056974599120194, 1: 0.7999503334752376, 2: 0.8056974599120194}, 'ci': (0.059986862913382184, 0.16543371871241758), 'chosen': ['a', '12', '0.1'], 'sel_cv': 0.9227011494252874} 472s
+rung2 {'hidden': {0: 0.9157442883496523, 1: 0.8890307932453526, 2: 0.90712359869448}, 'glove': {0: 0.7588690222789841, 1: 0.762203774655882, 2: 0.7592592592592592}, 'ci': (0.09027391975308648, 0.19869628992083208), 'wd_hidden': 10.0, 'wd_glove': 10.0, 'sel_hidden': {0.01: 0.8766283524904215, 0.1: 0.8766283524904215, 1.0: 0.8900383141762451, 10.0: 0.9109195402298851}, 'sel_glove': {0.01: 0.6953065134099616, 0.1: 0.6876436781609194, 1.0: 0.6886973180076629, 10.0: 0.6812260536398468}} 628s
+ALL DONE 628s

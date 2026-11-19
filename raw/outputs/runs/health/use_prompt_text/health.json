@@ -1,0 +1,27 @@
+{
+  "schema": "fractal-health/1",
+  "source": "/scratch/exp/out/generations.jsonl",
+  "source_sha256": "8a056d7e8362f46ce55b1d3dd12d1709df93efd8331962bccc8441597c25c236",
+  "rows": 30,
+  "baseline": "base_model_use_prompt",
+  "max_unhealthy_share": 0.1,
+  "overrides": {},
+  "passed": true,
+  "saturated_conditions": [],
+  "conditions": {
+    "base_model_use_prompt": {
+      "n": 30,
+      "unhealthy_share": 0.06666666666666667,
+      "empty": 0.0,
+      "loop": 0.06666666666666667,
+      "unfinished_thinking": 0.0,
+      "language_drift": 0.0,
+      "identical_share": 0.03333333333333333,
+      "saturated": false,
+      "examples": {
+        "loop": " hand, not the foot. So, the answer is no. The answer is no. The answer is no. The"
+      }
+    }
+  },
+  "created_utc": "2026-11-18T19:08:35Z"
+}
